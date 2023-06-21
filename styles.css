@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 226, 226);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 900;
+    
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.nav-section{
+    background-color: #161617;
+    height:calc(44px - 8px);
+    font-size: 11px;
+    width: 100%;
+    padding-top: 8px;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+   
+   
+}
+.main-svg{
+    width: 20px;
+    color: #E8E8ED;
+}
+
+.top-margin{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.nav-section ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;    
+    text-align: center;
+}
+
+main{
+    margin: 55px auto;
+    width: 70%;
+    background-color: white;
+    padding: 5%;
+    box-shadow: 2px 3px 3px 3px black;
+}
+
+
+.nav-section ul li {
+   list-style-type: none;
+   
+}
+
+.nav-section ul li a{
+    text-decoration: none;
+    color:#E8E8ED;
+}
+.inner-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.mg-40{
+    margin: 30px;
+}
+
+hr{
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    font-size: 10px;
+    color: gray;
+}
+
+.pd-bottom{
+    padding-bottom: 40px;
+}
+
+.center{
+    text-align: center;
+}
